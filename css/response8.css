@@ -1,0 +1,13 @@
+@media (max-width:650px){
+    .section3{
+        flex-direction: column;
+    }
+    .boxwraper{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
