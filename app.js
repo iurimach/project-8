@@ -18,7 +18,53 @@ var boxwraper4 = document.querySelector('#boxwraper4')
 var boxwraper5 = document.querySelector('#boxwraper5') 
 var btmorediv= document.querySelector('#btmorediv')
 var animation2=document.querySelector("#animation2")
+var nav=document.querySelector("#ullia")
+  var nav2=document.querySelector("#ulli2")
+  var nav3=document.querySelector("#ulli3")
+  var boxwraperh2=document.querySelector("#boxwraperh2")
+  var anim=document.querySelector("#anim")
 
+
+
+function darck(){
+  
+  if (document.body.style.backgroundColor = "black"){
+    document.body.style.color ="white"
+  }
+  
+  
+  var boxwraperh2=document.querySelector("#boxwraperh2")
+  
+  
+
+  var nav=document.querySelector("#ullia")
+  var nav2=document.querySelector("#ulli2")
+  var nav3=document.querySelector("#ulli3")
+  var anim=document.querySelector("#anim")
+
+  boxwraperh2.style.color="white"
+  nav.style.color="white"
+  nav2.style.color="white"
+  nav3.style.color="white"
+  anim.style.color="white"
+
+  
+  
+
+}
+function white(){
+  
+  if (document.body.style.backgroundColor = "white"){
+    document.body.style.color = "black"
+    nav.style.color="black"
+    nav2.style.color="black"
+    nav3.style.color="black"
+    anim.style.color="black"
+    boxwraperh2.style.color="black"
+  }
+  
+
+}
 
 
 function bt5() {
