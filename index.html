@@ -15,191 +15,196 @@
     
 </head>
 <body>
-    <header>
+    <div id="rootheader">
+        <label for="input1" id="label1"> Are you 18 years old ? </label><br>
+        <input type="checkbox"  id="checkbox"  name="input1" >
+        <button id="openbox" onclick="openpage()"  disabled=""> Nexst</button>
+    </div>
+    <div id="root">
+        <header>
 
-        <h3> Select Mode</h3>
-        <button id="darck"  onclick="darck()"></button>
-       <button id="white"  onclick="white()"></button>
-        <nav class="naw"> 
-           
-            <div class="logo"> <a href=""> <img src="foto/logo.png" alt="errfoo"> </a></div>
-            <div>
-                <ul class="ul">
-                    <li > <a href="#" id="ullia">Home</a> </li>
-                    <li > <a href="#2"  id="ulli2"> Galeri</a> </li>
-                    <li > <a href="#3"  id="ulli3"> Contact  </a></li>
-                </ul>
-            </div>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_riAqnQrYxZ.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin-top: 15px;"  loop  autoplay></lottie-player>
-       
-       
-        </nav>
-
-    </header> 
-    
-
-    <section class="section1">
-        <div class="box1">
-            <img src="foto/karusel1.jpg" alt="errfoto" id="karusel1">
-            <img src="foto/mdivani1.avif" alt="errfoto" id="karusel2">
-            <img src="foto/sofa3.avif" alt="errfoto" id="karusel3">
-            <img src="foto/index.avif" alt="errfoto" id="karusel4">
+            <h3> Select Mode</h3>
+            <button id="darck"  onclick="darck()"></button>
+        <button id="white"  onclick="white()"></button>
+            <nav class="naw"> 
             
-            <div class="box1div">
-                <h2 id="size">Large mine</h2>
-                <p id="price">  120$</p>
-                <button id="b001"> Bye</button>
-                <div class="btdiv">
-                    <button onclick="bt1()"  id="btt1"> Nexst > </button>
-                    <button onclick="bt2()" id="btt2"> Nexst > </button>
-                    <button onclick="bt3()" id="btt3"> Nexst > </button>
-                    <button onclick="bt4()" id="btt4"> Nexst > </button>
-             </div>
-            </div>
-        </div>
-
-    </section>
-
-    <div  id="tavsarti1"> Sessel </div>
-
-    <section class="section3">
-        
-        <div class="boxwraper">
-        <div class="box">
-            <div> <img src="foto/skami1.avif" alt="foto"></div>
-            <div > <h2  id="boxwraperh2"> Popover Heavyweight  </h2> </div>
-            <div> <h3 id="anim" class="animate__animated animate__headShake"> $190.00</h3> </div>
-        </div>
-        <div class="box">
-            <div> <img src="foto/skami10.avif" alt="foto"></div>
-            <div> <h2 >Vintage Slub  x brend</h2> </div>
-            <div> <h3 id="anim" class="animate__animated animate__headShake"> $140.00</h3> </div>
-        </div>
-        <div class="box">
-            <div> <img src="foto/skami4.avif" alt="foto"></div>
-            <div> <h2 > Long-sleeve Vintage  </h2> </div>
-            <div> <h3 id="anim" class="animate__animated animate__headShake"> $85.00</h3> </div>
-        </div>
-        
-        </div>
-    </div>
-    </div>
-    </section>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_dCQikMoSzZ.json"  background="transparent"  speed="0.3"  style="width: 150px; height: 150px;"  loop  autoplay id="animation2"></lottie-player>
-    <section class="section4">
-        <div class="btmorediv">
-            <button id="btt5" class="btmore" onclick="bt5()"> view more info</button>
-        </div>
-
-        <div class="boxwraper2" id="boxwraper2">
-            <div class="boxmore1" >
-                <div> <img src="foto/morefoto1.webp" alt="foto"></div>
-                <div> <h2 > Popover Heavyweight  </h2> </div>
-                <div> <h3> $1190.00</h3> </div>
-            </div>
-            <div class="boxmore2">
-                <div> <img src="foto/morefoto2.jpg" alt="foto"></div>
-                <div> <h2 >Vintage Slub </h2> </div>
-                <div> <h3> $1140.00</h3> </div>
-            </div> 
-        </div>
-
-        <div class="boxwraper3" id="boxwraper3">
-            <div class="boxmore3" >
-                <div> <img src="foto/morefoto333333.jpg" alt="foto"></div>
-                <div> <h2 > Popover Heavyweight  </h2> </div>
-                <div> <h3> $1190.00</h3> </div>
-            </div>
-            <div class="boxmore4">
-                <div> <img src="foto/morefoto3.jpg" alt="foto"></div>
-                <div> <h2 >Vintage Slub </h2> </div>
-                <div> <h3> $1140.00</h3> </div>
-            </div> 
-        </div>
-
-
-         <div class="boxwraper2" id="boxwraper4">
-            <div class="boxmore1" >
-                <div> <img src="foto/more+/foto1.jpg" alt="foto"></div>
-                <div> <h2 > Popover Heavyweight  </h2> </div>
-                <div> <h3> $1190.00</h3> </div>
-            </div>
-            <div class="boxmore2">
-                <div> <img src="foto/more+/foto2.avif" alt="foto"></div>
-                <div> <h2 >Vintage Slub </h2> </div>
-                <div> <h3> $1140.00</h3> </div>
-            </div> 
-        </div>
-
-        <div class="boxwraper3" id="boxwraper5">
-            <div class="boxmore3" >
-                <div> <img src="foto/more+/foto3.avif" alt="foto"></div>
-                <div> <h2 > Popover Heavyweight  </h2> </div>
-                <div> <h3> $1190.00</h3> </div>
-            </div>
-            <div class="boxmore4">
-                <div> <img src="foto/more+/foto44.jpg" alt="foto"></div>
-                <div> <h2 >Vintage Slub </h2> </div>
-                <div> <h3> $1140.00</h3> </div>
-            </div> 
-        </div>
-    </section>
-<footer>
-    
-        <div class="fboxwraper">
-            <div class="fconteiner">
-                <div class="footerbox1">
-                    <h3>Need help?</h3>
-                    <li>FAQ</li>
-                    <li>Refund and Returns Policy</li>
-                    <li>Contact us</li>
+                <div class="logo"> <a href=""> <img src="foto/logo.png" alt="errfoo"> </a></div>
+                <div>
+                    <ul class="ul">
+                        <li > <a href="#" id="ullia">Home</a> </li>
+                        <li > <a href="#2"  id="ulli2"> Galeri</a> </li>
+                        <li > <a href="#3"  id="ulli3"> Contact  </a></li>
+                    </ul>
                 </div>
-                <div class="footerbox2">
-                    <h3>NGet in touch</h3>
-                    <li>123 Example St, San Francisco,
-                        CA 12345-6789</li>
-                    <li><a href="#"> @example.com </a></li>
-                    <li>0123-456-7890</li>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_riAqnQrYxZ.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin-top: 15px;"  loop  autoplay></lottie-player>
+        
+        
+            </nav>
+
+        </header> 
+        
+
+        <section class="section1">
+            <div class="box1">
+                <img src="foto/karusel1.jpg" alt="errfoto" id="karusel1">
+                <img src="foto/mdivani1.avif" alt="errfoto" id="karusel2">
+                <img src="foto/sofa3.avif" alt="errfoto" id="karusel3">
+                <img src="foto/index.avif" alt="errfoto" id="karusel4">
+                
+                <div class="box1div">
+                    <h2 id="size">Large mine</h2>
+                    <p id="price">  120$</p>
+                    <button id="b001"> Bye</button>
+                    <div class="btdiv">
+                        <button onclick="bt1()"  id="btt1"> Nexst > </button>
+                        <button onclick="bt2()" id="btt2"> Nexst > </button>
+                        <button onclick="bt3()" id="btt3"> Nexst > </button>
+                        <button onclick="bt4()" id="btt4"> Nexst > </button>
+                     </div>
                 </div>
-                <div class="footerbox3">
-                    <h3>Follow us</h3>
-                    <div class="ficon">
-                        <a href="#"><i class="fa-brands fa-facebook" ></i></a>
-                       <a href="#"> <i class="fa-brands fa-twitter" id="icon2"></i></a>
-                       <a href="#"> <i class="fa-brands fa-youtube" id="icon2"></i></a>
-                       <a href="#"> <i class="fa-brands fa-pinterest-p" id="icon2"></i></a>
-                       <a href="#"><i class="fa-brands fa-instagram" id="icon2"></i> </a>
-                        
+            </div>
+
+        </section>
+
+        <div  id="tavsarti1"> Sessel </div>
+
+        <section class="section3">
+            
+            <div class="boxwraper">
+                <div class="box">
+                    <div> <img src="foto/skami1.avif" alt="foto"></div>
+                    <div > <h2  id="boxwraperh2"> Popover Heavyweight  </h2> </div>
+                    <div> <h3 id="anim" class="animate__animated animate__headShake"> $190.00</h3> </div>
+                </div>
+                <div class="box">
+                    <div> <img src="foto/skami10.avif" alt="foto"></div>
+                    <div> <h2 >Vintage Slub  x brend</h2> </div>
+                    <div> <h3 id="anim" class="animate__animated animate__headShake"> $140.00</h3> </div>
+                </div>
+                <div class="box">
+                    <div> <img src="foto/skami4.avif" alt="foto"></div>
+                    <div> <h2 > Long-sleeve Vintage  </h2> </div>
+                    <div> <h3 id="anim" class="animate__animated animate__headShake"> $85.00</h3> </div>
+                </div>
+                
+            </div>
+           
+        </section>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_dCQikMoSzZ.json"  background="transparent"  speed="0.3"  style="width: 150px; height: 150px;"  loop  autoplay id="animation2"></lottie-player>
+        <section class="section4">
+            <div class="btmorediv">
+                <button id="btt5" class="btmore" onclick="bt5()"> view more info</button>
+            </div>
+
+            <div class="boxwraper2" id="boxwraper2">
+                <div class="boxmore1" >
+                    <div> <img src="foto/morefoto1.webp" alt="foto"></div>
+                    <div> <h2 > Popover Heavyweight  </h2> </div>
+                    <div> <h3> $1190.00</h3> </div>
+                </div>
+                <div class="boxmore2">
+                    <div> <img src="foto/morefoto2.jpg" alt="foto"></div>
+                    <div> <h2 >Vintage Slub </h2> </div>
+                    <div> <h3> $1140.00</h3> </div>
+                </div> 
+            </div>
+
+            <div class="boxwraper3" id="boxwraper3">
+                <div class="boxmore3" >
+                    <div> <img src="foto/morefoto333333.jpg" alt="foto"></div>
+                    <div> <h2 > Popover Heavyweight  </h2> </div>
+                    <div> <h3> $1190.00</h3> </div>
+                </div>
+                <div class="boxmore4">
+                    <div> <img src="foto/morefoto3.jpg" alt="foto"></div>
+                    <div> <h2 >Vintage Slub </h2> </div>
+                    <div> <h3> $1140.00</h3> </div>
+                </div> 
+            </div>
+
+
+            <div class="boxwraper2" id="boxwraper4">
+                <div class="boxmore1" >
+                    <div> <img src="foto/more+/foto1.jpg" alt="foto"></div>
+                    <div> <h2 > Popover Heavyweight  </h2> </div>
+                    <div> <h3> $1190.00</h3> </div>
+                </div>
+                <div class="boxmore2">
+                    <div> <img src="foto/more+/foto2.avif" alt="foto"></div>
+                    <div> <h2 >Vintage Slub </h2> </div>
+                    <div> <h3> $1140.00</h3> </div>
+                </div> 
+            </div>
+
+            <div class="boxwraper3" id="boxwraper5">
+                <div class="boxmore3" >
+                    <div> <img src="foto/more+/foto3.avif" alt="foto"></div>
+                    <div> <h2 > Popover Heavyweight  </h2> </div>
+                    <div> <h3> $1190.00</h3> </div>
+                </div>
+                <div class="boxmore4">
+                    <div> <img src="foto/more+/foto44.jpg" alt="foto"></div>
+                    <div> <h2 >Vintage Slub </h2> </div>
+                    <div> <h3> $1140.00</h3> </div>
+                </div> 
+            </div>
+        </section>
+         <footer>
+            
+                <div class="fboxwraper">
+                    <div class="fconteiner">
+                        <div class="footerbox1">
+                            <h3>Need help?</h3>
+                            <li>FAQ</li>
+                            <li>Refund and Returns Policy</li>
+                            <li>Contact us</li>
+                        </div>
+                        <div class="footerbox2">
+                            <h3>NGet in touch</h3>
+                            <li>123 Example St, San Francisco,
+                                CA 12345-6789</li>
+                            <li><a href="#"> @example.com </a></li>
+                            <li>0123-456-7890</li>
+                        </div>
+                        <div class="footerbox3">
+                            <h3>Follow us</h3>
+                            <div class="ficon">
+                                <a href="#"><i class="fa-brands fa-facebook" ></i></a>
+                            <a href="#"> <i class="fa-brands fa-twitter" id="icon2"></i></a>
+                            <a href="#"> <i class="fa-brands fa-youtube" id="icon2"></i></a>
+                            <a href="#"> <i class="fa-brands fa-pinterest-p" id="icon2"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram" id="icon2"></i> </a>
+                                
+                            </div>
+                        </div>
+                        <div class="footerbox4">
+                            <h3>Subscribe to newsletter</h3>
+                            <div>
+                                <label for="texst"></label>
+                                <input type="email" placeholder="type your email">
+                            </div>
+                            <button><a href="#"> subscribe </a></button>
+                        </div>
+            
+            
+            
+                    </div>
+                </div> 
+            
+            <section class="section6">
+                <div class="footerend">
+                <div class="copyright">  
+                        <i class="fa-regular fa-copyright" > </i>
+                        <p> 2023 Iuri MaCh</p>
                     </div>
                 </div>
-                <div class="footerbox4">
-                    <h3>Subscribe to newsletter</h3>
-                    <div>
-                        <label for="texst"></label>
-                        <input type="email" placeholder="type your email">
-                    </div>
-                    <button><a href="#"> subscribe </a></button>
-                </div>
-    
-    
-    
-            </div>
-        </div> 
-      
-    <section class="section6">
-        <div class="footerend">
-           <div class="copyright">  
-                <i class="fa-regular fa-copyright" > </i>
-                <p> 2023 Iuri MaCh</p>
-             </div>
-        </div>
-      </section>
-</footer>
+            </section>
+        </footer>
 
 
-
+    </div>
 <script src="app.js"></script>
 </body>
 </html>
